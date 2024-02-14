@@ -1,0 +1,17 @@
+.DogList {
+    display: flex;
+    flex-direction: row;
+}
+
+.DogList-DogLink a, .DogList-DogHome a {
+    margin: 1.5rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.DogList-DogLink a:hover, .DogList-DogHome a:hover {
+    margin: 1.5rem;
+    list-style-type: none;
+    color: orange;
+    text-decoration: none;
+}
